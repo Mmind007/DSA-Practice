@@ -10,8 +10,6 @@ public class FindWords {
         String[] dict1 =  {"ab", "abcd", "bcdaf", "bcad", "acaab", "acab"};
         String input1 = "caab";
         System.out.println(findPairs(dict1,input1));
-
-//
     }
 
     private static List<String> findPairs(String[] dict,String input) {
